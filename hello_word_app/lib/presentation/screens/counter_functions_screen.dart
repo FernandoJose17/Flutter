@@ -15,6 +15,7 @@ class _CounterScreenState extends State<CounterFunctionsScreen> {
 int clickCounter = 0;
 
 
+  @override
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
